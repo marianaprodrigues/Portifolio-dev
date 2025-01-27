@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--gray-200);
+    font: var(--subtitle);
+}
+
+:root{
+    --red:#E3646E;
+    --purple:#BB72E9;
+    --blue:#3996DB;
+    --green:#82BC4F;
+    --yellow:#EABD5F;
+    --gray-100:#0D0E11;
+    --gray-200:#16181D;
+    --gray-300:#292C34;
+    --gray-400:#878EA1;
+    --gray-500:#C0C4CE;
+    --gray-600:#E2E4E9;
+    --gray-300:#292C34;
+
+    --font-family: 'asap', 'incosolata', 'maven-pro';
+    --h1: 700 56px/120% var(--font-family);
+    --h2: 700 24px/120% var(--font-family);
+    --h3: 700 16px/120% var(--font-family);
+    --text: 400 20px/120% var(--font-family);
+    --text-md: 400 16px/140% var(--font-family);
+    --text-sm: 400 14px/140% var(--font-family);
+
+}
+
+h1, h2, h3{
+    font: inherit;
+}
+
+.intro{
+    width: 100%;
+    height: 750px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+img{
+    max-width: 100%;
+    
+}
+
+.info{
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 0;
+    gap: 20px;
+
+    position: absolute;
+    width: 1040px;
+    height: 447px;
+    left: calc(50% - 1040px/2);
+    top: 120px;
+}
+
+
+.avatar{
+    width: 112px;
+    height: 112px;
+    margin-bottom: 56px;
+}
+
+.icone{
+    width: 32px;
+    height: 32px;
+    margin: 70px;
+    margin-top: -30px;
+    color: var(--green);
+}
+
+.code{
+    position: absolute;
+    width: 87.27px;
+    height: 87.27px;
+    border-radius: 9999px;
+    margin-left: 6.2px;
+    margin-top: 6.2px;
+}
+
+.destaque{
+    color: var(--red);
+    align-items: center;
+    gap: 24px;
+}
+
+.caret{
+
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: calc(50% - 32px/2);
+    top: 710px;
+    }
+
+    header {
+        display: flex;
+        width: 1366px;
+        height: 917px;
+        flex-direction: column;
+        padding: 72px 70px 144px;
+        align-items: center;
+        flex-grow: 0;
+        align-self: stretch;
+        box-sizing: content-box;
+        
+    }
+    
+    #card{
+        width: 1040px;
+        height: 584px;
+        align-content: center;
+        padding: 0px;
+        gap: 24px;
+    
+    
+        img{
+        width: 310px;
+        height: 158px;
+        object-fit: cover;
+        align-items: center;
+        border-radius: 15px;
+        padding: 10px;
+        box-sizing: content-box;
+        }
+    
+    }
+    
+    
+    .project{
+        background-color: var(--gray-300);
+        width: 330px;
+        height: 280px;
+        border-radius: 9px;
+    
+        &:hover{
+            border: solid;
+        }
+    }
+    
+    #icons{
+        padding-top: 80px;
+        padding-bottom: 94px;
+    }
+    
+    #projectCard{
+        padding-bottom: 56px;
+        gap: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .textCard{
+    
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    padding: 10px;
+    gap: 8px;
+    
+    }
+    
+    
+    .services{
+        padding: 80px 120px 120px 120px;
+        background-color: var(--gray-100);
+        width: 100%;
+        height: 480px;
+    
+    }
+    
+    .project2{
+        box-sizing: border-box;
+        display: flex;
+        width: 280px;
+        height: 155px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+        gap: 20px;
+        border: 2px solid var(--gray-200);
+        border-radius: 12px;
+    
+    }
+    
+    #card2{
+        height: 155px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: center;
+        padding: 0px;
+        gap: 24px;
+    
+    }
+    
+    .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 128px 120px 200px;
+        gap: 48px;
+        background-image: url(../assets/images/Background_Contacts.png);
+        background-size: cover;
+    
+    }
+    
+    .contactext{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        width: 420px;
+        height: 91px;
+        align-items: center;
+    }
+    
+    .purple{
+        color: var(--purple);
+    }
+    
+    #card3{
+        background: var(--gray-300);
+        width: 400px;
+        height: 68px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        padding: 20px;
+        gap: 12px;
+    
+        &:hover{
+            border: solid;
+            color: var(--blue);
+        }
+    
+    }
+    
+    .linkedin{
+        width: 288px;
+        height: 22px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    
+    }
+    
+    .seta{
+        display: flex;
+        width: 20px;
+        height: 20px;
+        align-items: end;
+        order: 2;
+        flex-grow: 0;
+        justify-content: end;
+    
+    }

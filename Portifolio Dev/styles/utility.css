@@ -1,0 +1,112 @@
+.title-lg{
+    font:var(--h1);
+}
+
+.title-md{
+    font: var(--h2);
+}
+
+.title-sm{
+    font: var(--h3);
+}
+
+.subtitle{
+    font: var(--text);
+}
+
+.text-md{
+    font: var(--text-md);
+}
+
+.text-sm{
+    font: var(--text-sm);
+    
+}
+
+.grid{
+    display: grid;
+}
+
+.grid-flow-col{
+    grid-auto-flow: column;
+    
+}
+
+.grid-cols-2{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gray-600{
+    color: var(--gray-600);
+}
+
+.gray-500{
+    color: var(--gray-500);
+}
+
+.gray-400{
+    color: var(--gray-400);
+    width: 680px;
+    height: 40px;   
+    text-align: center;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.gray-300{
+    background-color: var(--gray-300);
+    border-radius: 999px;
+    padding: 8px 16px;
+    align-items: center;
+}
+
+span{
+    align-items: center;
+    gap: 110px;
+}
+
+.tag{
+    gap: 16px;
+    order: 1;
+    width: 754px;
+    height: 40px;
+
+}
+
+.github{
+    width: 114px;   
+}
+
+.html{
+    width: 105px;
+}
+
+.css{
+    width: 98px;
+}
+
+.java{
+    width: 135px;
+}
+
+.react{
+    width: 106px;
+
+}
+
+.node{
+    width: 119px;
+}
+
+.span{
+    align-items: center;
+    padding: 2px;
+}
+
+
+.gap16{
+    gap: 16px;
+    display: grid;
+}
+
